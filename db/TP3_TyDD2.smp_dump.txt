@@ -1,0 +1,18 @@
+
+State Machine - |SAC|fstate
+Name fstate.S_6 fstate.S_7 fstate.S_4 fstate.S_5 fstate.S_0 fstate.S_1 fstate.S_2 fstate.S_3 fstate.St_7 fstate.St_5 fstate.St_1 fstate.St_3 fstate.St_6 fstate.St_2 fstate.St_4 
+fstate.St_4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+fstate.St_2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+fstate.St_6 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+fstate.St_3 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+fstate.St_1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+fstate.St_5 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+fstate.St_7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+fstate.S_3 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+fstate.S_2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+fstate.S_1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+fstate.S_0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+fstate.S_5 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+fstate.S_4 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+fstate.S_7 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+fstate.S_6 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

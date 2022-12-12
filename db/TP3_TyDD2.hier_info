@@ -1,0 +1,22 @@
+|SAC
+reset => fstate~3.DATAIN
+clock => fstate~1.DATAIN
+x => Selector6.IN3
+x => Selector8.IN3
+x => Selector10.IN3
+x => Selector12.IN3
+x => Selector3.IN0
+x => Selector4.IN0
+x => Selector2.IN0
+x => Selector5.IN0
+x => Selector7.IN2
+x => Selector9.IN2
+x => Selector11.IN2
+x => Selector13.IN2
+x => Selector0.IN1
+x => Selector1.IN0
+z[2] <= WideOr16.DB_MAX_OUTPUT_PORT_TYPE
+z[1] <= WideOr15.DB_MAX_OUTPUT_PORT_TYPE
+z[0] <= WideOr14.DB_MAX_OUTPUT_PORT_TYPE
+
+
