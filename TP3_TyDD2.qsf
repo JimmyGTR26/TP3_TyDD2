@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone III"
 set_global_assignment -name DEVICE EP3C120F780C7
-set_global_assignment -name TOP_LEVEL_ENTITY SAC
+set_global_assignment -name TOP_LEVEL_ENTITY debouncer_top
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:18:39  DECEMBER 09, 2022"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -61,6 +61,7 @@ set_location_assignment PIN_AD15 -to z[2]
 set_global_assignment -name BSF_FILE SAC.bsf
 set_global_assignment -name VHDL_FILE clk0_pll.vhd
 set_location_assignment PIN_AH15 -to inclk0
+set_global_assignment -name VHDL_FILE debouncer_top.vhd
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
